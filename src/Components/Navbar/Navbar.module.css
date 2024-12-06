@@ -1,0 +1,26 @@
+.navbar {
+    z-index: 1050;
+}
+@media (max-width: 1275px) {
+    .navbar {
+        position: static;
+    }
+    .main {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .navbarMiddle ul {
+        font-size: 18px;
+        margin-left: 0;
+    }
+}
+@media (max-width: 430px) {
+    .navbarRight {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .navbarMiddle ul {
+        font-size: 17px;
+        margin-left: 0;
+    }
+}
